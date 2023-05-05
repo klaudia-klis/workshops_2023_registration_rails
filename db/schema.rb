@@ -16,6 +16,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_21_175151) do
     t.datetime "updated_at", null: false
     t.string "title"
     t.text "description"
+    t.date "deadline"
   end
 
 end
